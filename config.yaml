@@ -1,0 +1,13 @@
+database:
+  host: localhost
+  port: 5432
+  dbname: trading
+  user: trading_user
+  password: your_secure_password
+
+stocks:
+  tickers:
+    - AAPL
+    - TSLA
+    - MSFT
+  data_source: yfinance
